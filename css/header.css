@@ -1,0 +1,90 @@
+/* Override Buxton Layout */
+
+.container-fluid {
+    padding-right: auto;
+    padding-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+  max-width: 100%;
+}
+
+
+/* Science settings */
+
+.header-identity-wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.header-site-logo-wrapper,
+.header-site-name-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  margin: 0;
+  max-height: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header-site-name-wrapper h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header-site-name-wrapper a:hover {
+  text-decoration: none;
+}
+
+.header-site-slogan {
+  margin: 0;
+  max-width: 30rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header-menu {
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*Move the following to blocks.css or similar */
+div.block-hero {
+  margin: 0;
+  padding: 1rem;
+}
+
+div.block-hero .block-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.block-hero p {
+  max-width: 70rem;
+}

@@ -1,0 +1,15 @@
+name = Science
+description = Minimal XHTML5 compatible theme.
+type = theme
+backdrop = 1.x
+
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/cards.css
+stylesheets[all][] = css/colors.css
+stylesheets[all][] = css/fonts.css
+;stylesheets[screen][] = css/maintenance.css
+
+;scripts[] = js/helper.js
+
+settings[hide_header_menu_for_anonymous] = false
+;settings[font] = 'stix'

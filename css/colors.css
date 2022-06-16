@@ -1,0 +1,17 @@
+html {
+  background-color: black;
+  color: white;                    
+}
+
+a {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.block-hero {
+  background-color: black;
+}
