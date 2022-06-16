@@ -75,8 +75,11 @@
 
 /*Move the following to blocks.css or similar */
 div.block-hero {
+  border: 1px solid #777777;
+  border-radius: 1rem;
   margin: 0;
   padding: 1rem;
+  
 }
 
 div.block-hero .block-content {
