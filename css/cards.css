@@ -13,3 +13,15 @@ div.views-view-grid .views-grid-box {
   margin-bottom: 1rem;
   max-width: 22rem;
 }
+
+
+div.block-views-promoted-cards-block {
+  background-color: #111111;
+  border: 1px solid #555555;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+div.block > h2 {
+  margin-left: 1rem;
+}

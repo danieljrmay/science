@@ -1,24 +1,41 @@
+@font-face {
+  font-family: 'STIXTwoText';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('../fonts/stix/STIXTwoText-Regular.otf') format('otf'),
+    url('../fonts/stix/STIXTwoText-Regular.ttf') format('truetype'),
+    url('../fonts/stix/STIXTwoText-Regular.woff2') format('woff2'),
+    url('../fonts/stix/STIXTwoText-Italic.otf') format('otf'),
+    url('../fonts/stix/STIXTwoText-Italic.ttf') format('truetype'),
+    url('../fonts/stix/STIXTwoText-Italic.woff2') format('woff2'),
+}
+
 html {
-  font-family: system-ui;
+  font-family: sanserif, system-ui;
+  font-size: 120%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: StixGeneral, serif;
+  font-family: "StixTwoText", serif;
   font-weight: normal;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header-site-slogan,
-div.block-hero {
-  font-family: StixGeneral, serif;
-  font-size: 1.5rem;
+div.block-hero div.block-content > p {
+  font-family: "StixTwoText", serif;
   font-style: italic;
 }
 
+.header-site-slogan {
+  font-size: 1.25rem;
+}
 
-div.block-hero {
-  font-size: 2rem;
+div.block-hero div.block-content > p {
+  font-size: 1.75rem;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
