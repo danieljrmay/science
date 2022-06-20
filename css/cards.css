@@ -14,7 +14,7 @@ div.views-view-grid .views-grid-box {
   margin: 0.5rem;
   min-width: 5rem;
   width: 15rem;
-  max-width: 65rem;
+  max-width: 100%;
 }
 
 
