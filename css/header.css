@@ -82,3 +82,12 @@ div.block-hero p {
   margin: 0;
   max-width: 65rem;
 }
+
+/* Copyright notice */
+footer.1-footer {
+  margin: 1rem;  
+}
+
+footer.1-footer .block-block-copyright {
+  font-size: 0.75rem;
+}
