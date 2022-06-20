@@ -7,7 +7,7 @@ div.views-view-grid {
 }
 
 div.views-view-grid .views-grid-box {
-  background: #404040;
+  background: #303030;
   border: 3px ridge #777777;
   border-radius: 1rem;
   flex: 1 1 auto;
@@ -20,7 +20,7 @@ div.views-view-grid .views-grid-box {
 
 div.block-views-promoted-cards-block,
 div.block-views-promoted-services-block {
-  background: #202020;
+  background: #181818;
   border: 3px ridge #777777;
   border-radius: 1rem;
   margin: 1rem;
