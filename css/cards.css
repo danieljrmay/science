@@ -1,5 +1,5 @@
 div.views-view-grid {
-  align-items: center;
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -7,18 +7,19 @@ div.views-view-grid {
 }
 
 div.views-view-grid .views-grid-box {
-  background-color: #333333;
-  border: 1px solid #777777;
+  background: #404040;
+  border: 3px ridge #777777;
   border-radius: 1rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   max-width: 18rem;
 }
 
 
 div.block-views-promoted-cards-block,
 div.block-views-promoted-services-block {
-  background-color: #111111;
-  border: 1px solid #555555;
+  background: #202020;
+  border: 3px ridge #777777;
   border-radius: 1rem;
   margin: 1rem;
 }

@@ -61,7 +61,7 @@
 
 /*Move the following to blocks.css or similar */
 div.block-hero {
-  border: 1px solid #777777;
+  border: 3px ridge #777777;
   border-radius: 1rem;
   margin: 1rem;  
 }

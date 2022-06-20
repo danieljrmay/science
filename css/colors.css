@@ -1,6 +1,8 @@
 html {
-  background-color: black;
-/*  background-image: linear-gradient(to right, black, #002200); */
+  background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+  background: radial-gradient(closest-side, #222222, #444444, black);
+  background-image: linear-gradient(to right, black, #333333);
+  background: black;
   color: white;                    
 }
 
@@ -14,5 +16,5 @@ a:hover {
 }
 
 div.block-hero {
-  background-color: #333333;
+  background-color: rgba(50,50,50,0.5);
 }

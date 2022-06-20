@@ -33,9 +33,10 @@ div.block-hero div.block-content > p {
 
 .header-site-slogan {
   font-size: 1.25rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
 }
 
 div.block-hero div.block-content > p {
   font-size: 1.75rem;
-  text-shadow: 0.1rem 0.1rem 0.1rem black;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
 }
