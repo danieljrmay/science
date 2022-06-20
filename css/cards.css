@@ -10,8 +10,11 @@ div.views-view-grid .views-grid-box {
   background: #404040;
   border: 3px ridge #777777;
   border-radius: 1rem;
+  flex: 1 1 auto;
   margin: 0.5rem;
-  max-width: 17rem;
+  min-width: 5rem;
+  width: 15rem;
+  max-width: 65rem;
 }
 
 
