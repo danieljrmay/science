@@ -30,6 +30,7 @@
 
 .header-logo {
   margin: 1rem;
+  margin-bottom: 0;
   max-height: 5rem;
 }
 
@@ -38,6 +39,7 @@
   font-size: 3rem;
   font-weight: normal;
   margin: 1rem;
+  margin-bottom: 0;
 }
 
 .header-site-name-wrapper a:hover {
@@ -45,13 +47,15 @@
 }
 
 .header-site-slogan {
-  margin: 1rem;  
+  margin: 1rem;
+  margin-bottom: 0;
   max-width: 28rem;
 }
 
 .header-menu {
   font-size: 1rem;
   margin: 1rem;
+  margin-bottom: 0;
 }
 
 .header-menu ul {
@@ -75,5 +79,6 @@ div.block-hero .block-content {
 }
 
 div.block-hero p {
+  margin: 0;
   max-width: 65rem;
 }
