@@ -91,3 +91,40 @@ footer.l-footer {
 footer.l-footer .block-block-copyright {
   font-size: 0.75rem;
 }
+
+/* Contact details */
+address.grid {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+a.button-link,
+a.button-link:hover {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a.button-link button {
+  background: linear-gradient(to right, #003300, #005500);
+  border-radius: 1rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+span.email-icon,
+span.mobile-icon,
+span.whatsapp-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
