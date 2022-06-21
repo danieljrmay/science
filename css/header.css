@@ -93,12 +93,6 @@ footer.l-footer .block-block-copyright {
 }
 
 /* Contact details */
-address.grid {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-}
-
 a.button-link,
 a.button-link:hover {
   margin: 0;
@@ -107,16 +101,16 @@ a.button-link:hover {
 }
 
 a.button-link button {
-  background: linear-gradient(to right, #003300, #005500);
+  background: linear-gradient(45deg, #006600, #009900);
   border-radius: 1rem;
   color: white;
   cursor: pointer;
-  font-size: 1.125rem;
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
-  padding: 0.25rem;
+  padding: 0.125rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem black;
   width: 100%;
 }
 
