@@ -38,5 +38,12 @@ div.block-hero div.block-content > p {
 
 div.block-hero div.block-content > p {
   font-size: 1.25rem;
+  max-width: 50rem;
   text-shadow: 0.1rem 0.1rem 0.2rem black;
+}
+
+@media screen and (min-width: 640px) {
+  div.block-hero div.block-content > p {
+    font-size: 1.75rem;
+  }
 }
