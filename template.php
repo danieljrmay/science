@@ -11,7 +11,7 @@
  */
 function science_preprocess_header(&$variables) {
   // Set the theme logo
-  $variables['logo'] = backdrop_get_path('theme', 'science') . '/images/logo.web';
+  $variables['logo'] = backdrop_get_path('theme', 'science') . '/images/logo.webp';
 
   // Hide the header menu ("My account" and "Log in/out" links) for anonymous
   // users. Admins have to know to navigate to '/user/login'.
