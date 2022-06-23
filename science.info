@@ -12,4 +12,3 @@ stylesheets[all][] = css/fonts.css
 ;scripts[] = js/helper.js
 
 settings[hide_header_menu_for_anonymous] = false
-;settings[font] = 'stix'
